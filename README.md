@@ -13,7 +13,7 @@ The informations and questions of this test case can be found here: [4intelligen
 For more about the decisions made and how it was done: [4intelligence notebook](https://github.com/pedrofratucci/4Intelligence_Test_Case/blob/main/test_case_informations.pdf)
 
 
-# Question 1: Perform a descriptive analisys over the dataset informations
+# Question 1: Perform a descriptive analysis over the dataset informations
 
 For this question I followed a hypothesis creation method to get some insights.
 
