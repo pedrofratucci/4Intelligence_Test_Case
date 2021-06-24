@@ -1,6 +1,6 @@
 # 4Intelligence Test Case
 
-<img src= "storytelling/logo.png"> 
+<img src= "storytelling/icon.png"> 
 
 # About the Case
 
