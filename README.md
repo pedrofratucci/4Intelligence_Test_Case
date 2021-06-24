@@ -227,6 +227,8 @@ The RMSPE and MAPE values were around 5% and 4%, respectively. I don't know if f
 
 **Insights to boost our model:**
 
+- Try to evaluate the dataset with time series ML models, such as ARIMA and SARIMA.
+
 - Try to find a daily observations dataset, instead monthly observations. But I know that this is almost impossible, because of the features origin.
 
 - Try to find more socioeconomic informations about the Southeast region, than just PIB and PIB per capita values. Probably these socioeconomic informations are good indicators of how the industry sector will behave.
