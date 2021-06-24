@@ -195,7 +195,7 @@ This is important, because we need to make sure that our model have a low metric
 
 I also did some hyperparameters tuning, but I won't discuss it here.
 
-So, after all of these evaluations, the final machine learning model was **Random Forest Regressor*!
+So, after all of these evaluations, **the final machine learning model was Random Forest Regressor!**
 
 Here is its predictions for testing dataset and the next 22 months predictions:
 
