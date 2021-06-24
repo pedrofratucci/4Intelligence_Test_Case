@@ -203,7 +203,23 @@ Here is its predictions for testing dataset and the next 22 months predictions:
 
 # Question 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
 
-In process...
+As said in the previous question, I only selected 5 machine learning models as candidates. Lets remember them:
+
+- **Linear Regression**
+- **Linear Regression Regularized model (Lasso)**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+- **CatBoost Regressor**
+
+Linear Regression model was selected because...
+
+Lasso model was selected because...
+
+Random Forest Regressor model was selected because...
+
+XGBoost Regressor model was selected because...
+
+CatBoost Regressor model was selected because...
 
 # Question 4: What can we conclude from Questions 1, 2 and 3
 
