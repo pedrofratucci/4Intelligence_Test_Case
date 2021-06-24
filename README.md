@@ -122,7 +122,29 @@ This can be explained by the families purchasing power increase, by the real inc
 
 # Question 2: Create a machine learning model to predict the Southeast industry electric consumption for the next 24 months
 
-In process...
+## Features Selection
+
+I used some approaches to select the best features to the machine learning model training.
+
+First, with the short time that I had, I decided to filter the dataset generic features and those about the Southeast region and ignore the others features that were about others Brazilian regions.
+
+Then, I applied a correlation matrix over the remaining features, to understand their parametric correlation and their relation with the **`ind_se`** label, which represents the Southeast electric consumption, that we want to predict.
+
+<img src= "storytelling/num_features_relations_2.png"> 
+
+After that, I applied some features selection models, to have more indicators when deciding the final selected features for our ML. 
+
+- Borutapy
+- Random Forest Regressor Features Importance
+- Recursive Feature Elimination (RFE)
+
+Here is the Random Forest Regressor Features Importance graph representation:
+
+<img src= "storytelling/random_forest_selected_features.png"> 
+
+## Machine Learning Model Evaluation Metrics
+
+As I was going to evaluate ML regression models, 
 
 # Question 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
 
