@@ -9,7 +9,7 @@ The informations and questions of this test case can be found here: [4intelligen
 For more about the decisions made and how it was done: [4intelligence notebook](https://github.com/pedrofratucci/4Intelligence_Test_Case/blob/main/test_case_informations.pdf)
 
 
-# QUESTION 1: Perform a descriptive analisys over the dataset informations
+# Question 1: Perform a descriptive analisys over the dataset informations
 
 For this question I followed a hypothesis creation method to get some insights.
 
@@ -116,15 +116,15 @@ There are a reduction of the industry electrical consumption for working populat
 
 This can be explained by the families purchasing power increase, by the real income increase (which is apply by person). So, with this real income increase the families with probably spend more in home comfort and some of these home upgrades includes buying more home appliances, for example.
 
-# QUESTION 2: Create a machine learning model to predict the Southeast industry electric consumption for the next 24 months
+# Question 2: Create a machine learning model to predict the Southeast industry electric consumption for the next 24 months
 
 In process...
 
-# QUESTION 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
+# Question 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
 
 In process...
 
-# QUESTION 4: What can we conclude from Questions 1, 2 and 3
+# Question 4: What can we conclude from Questions 1, 2 and 3
 
 In proces...
 
