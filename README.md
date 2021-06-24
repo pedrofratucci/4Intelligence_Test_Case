@@ -4,6 +4,10 @@
 
 # About the Case
 
+This is a test case for the 4Intelligence company.
+
+4intelligence develops B2B competitive intelligence platforms to support strategic and tactical decision making. It uses technology to make it simple to use statistical/econometric models and complex mathematical algorithms. In addition, they also offer a rich database, which supports all modeling processes in an integrated way.
+
 The informations and questions of this test case can be found here: [4intelligence informations](https://github.com/pedrofratucci/4Intelligence_Test_Case/blob/main/notebooks/4Intelligence_case_PH.ipynb)
 
 For more about the decisions made and how it was done: [4intelligence notebook](https://github.com/pedrofratucci/4Intelligence_Test_Case/blob/main/test_case_informations.pdf)
@@ -127,3 +131,14 @@ In process...
 # Question 4: What can we conclude from Questions 1, 2 and 3
 
 In process...
+
+# References
+
+
+- https://www.linkedin.com/company/4intelligence-ai/about/
+- 
+- https://sidra.ibge.gov.br/tabela/6579#resultado
+
+- https://sidra.ibge.gov.br/Tabela/6784#resultado
+
+- https://pt.wikipedia.org/wiki/Lista_de_per%C3%ADodos_em_que_vigorou_o_hor%C3%A1rio_de_ver%C3%A3o_no_Brasil
