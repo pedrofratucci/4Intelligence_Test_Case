@@ -167,7 +167,39 @@ I evaluated 5 candidates as a final machine learning model:
 - **XGBoost Regressor**
 - **CatBoost Regressor**
 
+For a first elimination, I also created a "dummy" predictive model. It basically takes the Southeast electrical consumption historical mean value and consider it as the prediction for each month. So, if one of our candidates don't return a lower RMSE value in the testing and cross validation evaluations than the "dummy" model, its an indicative of bad prediction results of it.
+
+Here is the "dummy" model metrics:
+
+<img src= "storytelling/baseline_machine_learning_model.png"> 
+
+ Then, I tested the candidates models for the testing dataset:
  
+ <img src= "storytelling/machine_learning_models.png"> 
+ 
+- Linear Regression model has a RMSE value lower than the average/dummy model, which means that it predictions are better than a dummy model.
+- Lasso model has a RMSE value higher than the average model, which means that it predictions are poorer than a dummy model.
+- XGB Regressor model has a RMSE value higher than the average model, which means that it predictions are poorer than a dummy model.
+- Linear Regression, Random Forest Regressor and CatBoost Regressor models apparently have the lower or close RMSE values compared to the average model RMSE value, indicating that their are strong candidates to final model.
+
+After that, I tested the candidates models with a cross validation:
+
+ <img src= "storytelling/crossvalidation_machine_learning_models.png"> 
+ 
+This is important, because we need to make sure that our model have a low metric deviance for different cuts in the timeline, then we can proceed to train it with the whole dataset and predict the Southeast electric consumption for the 'df_real_predictions_raw' dataframe.
+- Linear Regression model errors intervals are the expected ones. Its values are not so different from the 'x_test' and 'y_test' cut's metrics. But its RMSE's interval has a significant deviance, compared to the the Random Forest Regressor and CatBoost Regressor RMSE's intervals. Still, it is a candidate as a final ML model.
+- Lasso interval errors are the expected ones. Its values are not so different from the 'x_test' and 'y_test' cut's metrics. But its RMSE's interval has a significant deviance and its still higher than the Average (dummy) model RMSE's intervals. So it will be cut off from the candidates as final ML model.
+- Random Forest Regressor errors intervals are the expected ones. Its values are not so different from the 'x_test' and 'y_test' cut's metrics. Its RMSE's interval seen not to have a significant deviance, compared to the the Linear Regression and CatBoost Regressor RMSE's intervals. So, its a strong candidate as a final ML model and we will try refinate its predictions even more by hyperparameters tuning.
+- XGB Regressor errors are the expected ones. Its values are not so different from the 'x_test' and 'y_test' cut's metrics. But its RMSE's interval has a significant deviance and its still higher than the Average (dummy) model RMSE's intervals. So it will be cut off from the candidates as final ML model.
+- CatBoost Regressor errors intervals are the expected ones. Its values are not so different from the 'x_test' and 'y_test' cut's metrics. But its RMSE's interval has a significant deviance, compared to the the Random Forest Regressor and Linear Regression RMSE's intervals. Still, it is a candidate as a final ML model, because we will try refinate its predictions by hyperparameters tuning.
+
+I also did some hyperparameters tuning, but I won't discuss it here.
+
+So, after all of these evaluations, the final machine learning model was **Random Forest Regressor*!
+
+Here is its predictions for testing dataset and the next 22 months predictions:
+
+<img src= "storytelling/SE_consumption_evolution.png">  
 
 # Question 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
 
