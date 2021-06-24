@@ -134,17 +134,40 @@ Then, I applied a correlation matrix over the remaining features, to understand 
 
 After that, I applied some features selection models, to have more indicators when deciding the final selected features for our ML. 
 
-- Borutapy
-- Random Forest Regressor Features Importance
-- Recursive Feature Elimination (RFE)
+- **Borutapy**
+- **Random Forest Regressor Features Importance**
+- **Recursive Feature Elimination (RFE)**
 
 Here is the Random Forest Regressor Features Importance graph representation:
 
 <img src= "storytelling/random_forest_selected_features.png"> 
 
+For more informations and check which features were selected, check the notebook's section 6.
+
 ## Machine Learning Model Evaluation Metrics
 
-As I was going to evaluate ML regression models, 
+As I was going to evaluate ML regression models, I calculated the following error metrics:
+
+- **Mean Absolute Error (MAE)** 
+- **Mean Absolute Percentage Error (MAPE)** 
+- **Root mean Square Error (RMSE)** 
+- **Root mean Square Percentage Error (RMSPE)** 
+
+My main prediction goal here is to keep each month's prediction error the lower as possible of course, **but to keep their deviation lower too.**
+
+I decided to take the RMSE metric as the main metric, that's because the RMSE penalizes the predictions outliers values , *i.e*, increases their coefficient value, consequently increasing the RMSE value. So if some months predictions go "crazy" values, RMSE would be the most sensitive to it.
+
+## Final Machine Learning Model
+
+I evaluated 5 candidates as a final machine learning model:
+
+- **Linear Regression**
+- **Linear Regression Regularized model (Lasso)**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+- **CatBoost Regressor**
+
+ 
 
 # Question 3: Choose the top 5 best machine learning models tested and explain the reason for considering them as candidates
 
