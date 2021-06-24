@@ -136,9 +136,9 @@ In process...
 
 
 - https://www.linkedin.com/company/4intelligence-ai/about/
-- 
-- https://sidra.ibge.gov.br/tabela/6579#resultado
 
-- https://sidra.ibge.gov.br/Tabela/6784#resultado
+- https://sidra.ibge.gov.br/tabela/6579
+
+- https://sidra.ibge.gov.br/Tabela/6784
 
 - https://pt.wikipedia.org/wiki/Lista_de_per%C3%ADodos_em_que_vigorou_o_hor%C3%A1rio_de_ver%C3%A3o_no_Brasil
