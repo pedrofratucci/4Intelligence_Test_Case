@@ -223,7 +223,13 @@ CatBoost Regressor model was selected because...
 
 # Question 4: What can we conclude from Questions 1, 2 and 3
 
-In process...
+The RMSPE and MAPE values were around 5% and 4%, respectively. I don't know if for the sector forecast these are acceptable metrics, considering that they have only a 1.2%  and 0.5% difference from the "dummy" model's RMSPE and MAPE values.
+
+**Insights:**
+
+- Something to boost our predictive model's predictions is trying to find a daily observations, instead monthly observations. But I know that this is almost impossible, because of the features origin.
+
+- Try to find more socioeconomic informations about the Southeast region, than just PIB and PIB per capita values. Probably these socioeconomic informations are good indicators of how the industry sector will behave.
 
 # References
 
