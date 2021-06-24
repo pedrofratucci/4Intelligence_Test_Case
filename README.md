@@ -231,7 +231,7 @@ The RMSPE and MAPE values were around 5% and 4%, respectively. I don't know if f
 
 - Try to find more socioeconomic informations about the Southeast region, than just PIB and PIB per capita values. Probably these socioeconomic informations are good indicators of how the industry sector will behave.
 
-- Try to fill the **`renda_r`** and **`massa_r`** values using others regression ML models, so they could be used as features to our ML model training.
+- Try to fill the **`renda_r`** and **`massa_r`** features missing values using others regression ML models, so they could be used as features to our ML model training.
 
 # References
 
