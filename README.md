@@ -211,15 +211,9 @@ As said in the previous question, I only selected 5 machine learning models as c
 - **XGBoost Regressor**
 - **CatBoost Regressor**
 
-Linear Regression model was selected because...
+Linear Regression model was selected because is always nice to know how a straight line will minimizes the discrepancies between predicted label values and actual output values.
 
-Lasso model was selected because...
-
-Random Forest Regressor model was selected because...
-
-XGBoost Regressor model was selected because...
-
-CatBoost Regressor model was selected because...
+The Random Forest Regressor, XGBoost Regressor and CatBoost Regression models were applied, because before 4Intelligence contact me I was studying decision trees ensemble methods. So I decided to consider them as candidates to expand my practical experience applying these methods.
 
 # Question 4: What can we conclude from Questions 1, 2 and 3
 
