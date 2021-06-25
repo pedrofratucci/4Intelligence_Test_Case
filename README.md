@@ -134,7 +134,7 @@ Then, I applied a correlation matrix over the remaining features, to understand 
 
 After that, I applied some features selection models, to have more indicators when deciding the final selected features for our ML. 
 
-- **Borutapy**
+- **Boruta**
 - **Random Forest Regressor Features Importance**
 - **Recursive Feature Elimination (RFE)**
 
