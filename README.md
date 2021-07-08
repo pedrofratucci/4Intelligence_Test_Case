@@ -48,8 +48,8 @@ I mapped the original dataset columns/variables and some others that were import
 
 This correlation is probably caused due to the Brazil industrial and economic power increasing year by year. Then, we can spend more in industrial production, warm up our commerce due to the purchasing power increasing and spend more in residential comfort.
 
-## Hypothesis 3: Brazilian regions monthly industry electric consumption are higher in spring season than in the others
- 
+## Hypothesis 3: Brazilian regions monthly residential electric consumption per its resident population, are higher in summer season then in the others
+
 **FALSE**
 
 <img src= "storytelling/H3.png"> 
