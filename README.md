@@ -48,8 +48,8 @@ I mapped the original dataset columns/variables and some others that were import
 
 This correlation is probably caused due to the Brazil industrial and economic power increasing year by year. Then, we can spend more in industrial production, warm up our commerce due to the purchasing power increasing and spend more in residential comfort.
 
-## Hypothesis 3: Brazilian regions monthly residential electric consumption per its resident population, are higher in summer season then in the others
-
+## Hypothesis 3: Brazilian regions monthly industry electric consumption are higher in spring season than in the others
+ 
 **FALSE**
 
 <img src= "storytelling/H3.png"> 
@@ -58,7 +58,7 @@ This correlation is probably caused due to the Brazil industrial and economic po
 - The regions residential's electric consumption distribution per capita over the seasons are not so discrepant from each other. That is probably due to some kind of compensation. For example, in summer people tends spend a lot of electric power with air conditioner, and in the winter this consumption is compensated with some kind of room heater and electric shower. 
 - Something that is interesting is that the North region is the one with the most discrepant residential's electric consumption values distribution over the seasons, but its the second region with the lowest maximum temperature range over the dataset timeline (as we saw in section 2.6), due to be the most equatorial region.
 
-## Hypothesis 4: Brazilian regions monthly residential electric consumption per its resident population, are higher in summer season then in the others
+## Hypothesis 4: Brazilian regions monthly industry electric consumption are higher in spring season than in the others
 
 **FALSE**
 
